@@ -1,9 +1,9 @@
 /*
 Idea:
 
--try all possible orientation of arms that represent the same snowflake
+-try all possible orientations of arms that represent the same snowflake
 -for every snowflake take the lexicographically minimal orientation
--sort all snowflakes and if two have the same sizes then we found a match 
+-sort all snowflakes and if two have same sizes then we found a match 
 
 */
 
