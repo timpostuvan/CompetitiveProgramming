@@ -3,7 +3,7 @@ Idea:
 - we know ending position for every element so upper bound cost is abs(end position(i) - start position(j)) for all elements
 - but we don't damage the optimal answer (we improve it) if we always check whether some element at position k (i <= k and k <= j) needs to be transported to the right
 - this logic is correct because abs(i - j) = abs(i - k) + abs(j - k) when (i <= k && k <= j)
-- when we did this move we reduced time by at least one so this move is better than just swapping positions i and j (element k is closer to his ending position)
+- when we do this move we reduce time by at least one so this move is better than just swapping positions i and j (element at position k is closer to his ending position)
 */
 
 #include <bits/stdc++.h>
