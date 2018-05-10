@@ -1,7 +1,7 @@
 /*
 Idea:
 - If there are more than 9 groups, two groups can be put together (pigeonhole principle) -> answer is 0
-- dp[i][j][k][l] - current number has length i; there are j groups; last digit is k; the difference between
+- dp[i][j][k][l] - current number has length i; there are j groups; last digit is k; difference between
 last two elements is l (10 means we started a new group and difference hasn't been set yet)
 */
 
