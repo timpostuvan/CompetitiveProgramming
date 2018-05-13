@@ -2,7 +2,7 @@
 Idea:
 - When we are searching for a pattern (with length len) in concatenation of 2 strings, 
 we are only interested in first (len - 1) characters and last (len - 1) characters
-- After some number of times whole thing becomes constant -> first (len - 1) characters and
+- After some number of times prefix and suffix become constant -> first (len - 1) characters and
 last (len - 1) characters don't change anymore
 */
 
