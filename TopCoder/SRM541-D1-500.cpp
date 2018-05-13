@@ -88,10 +88,3 @@ class AkariDaisukiDiv1{
 		return ans;
 	}
 };
-/*
-
-int main(){
-	AkariDaisukiDiv1 problem;
-	cout << problem.countF("vfsebgjfyfgerkqlr","ezbiwls","kjerx","jbmjvaawoxycfndukrjfg","bgjfyfgerkqlrvfsebgjfyfgerkqlrvfsebgjfyfgerkqlrvfs",0) << endl;
-}
-*/
