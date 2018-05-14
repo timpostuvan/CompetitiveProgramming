@@ -58,13 +58,6 @@ int main(){
 		printf("Katie\n");
 		return 0;
 	}
-
-
-
-
-
-
-
-
+	
 	return 0;
 }
