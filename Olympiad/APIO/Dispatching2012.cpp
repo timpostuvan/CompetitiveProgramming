@@ -2,8 +2,8 @@
 Idea:
 - In manager's subtree it is optimal to take as many ninjas as possible -> we take ninjas with lowest salary (as long as their sum is less than m)
 - To get ninjas with lowest cost we need to store set with all ninjas available at that point
-- Set is just current ninja + ninjas from all immediate childer (we must be careful and use smaller to larger trick)
-- We set every ninja as a manager and print best 
+- Set is just current ninja + ninjas from all immediate childer (we must be careful when merging and use smaller to larger trick)
+- We set every ninja as a manager and output best 
 */
 
 #include <bits/stdc++.h>
