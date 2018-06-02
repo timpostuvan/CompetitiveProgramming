@@ -14,45 +14,7 @@ typedef long long ll;
 typedef long double ld;
 typedef pair<int, int> pii;
 
-int best_x, best_y;
-int dp[n + 3][n + 3];
 vector<vector<int> > a;
-
-
-int naive_solution(){
-	int x = 1, y = 1, sx = 0, sy = 0;
-	for(int i = 2; i <= n; i++){
-		if(sx + a[x][i] < sy + a[y][i]){
-			sx += a[x][i];
-			x = i;
-		}
-		else{
-			sy += a[y][i];
-			y = i;
-		}
-	}
-	return sx + sy;
-}
-
-int fun(int x, int y){
-	if(x == n || y == n)
-		return 0;
-
-	int &cur = dp[x][y];
-	if(cur != -1)
-		return cur;
-
-	int nxt = max(x, y) + 1;
-	cur = INF;
-	cur = min(cur, fun(nxt, y) + a[x][nxt]);
-	cur = min(cur, fun(x, nxt) + a[y][nxt]);
-	return cur;
-}
-
-int optimal_solution(){
-	memset(dp, -1, sizeof(dp));
-	return fun(1, 1);
-}
 
 int main(){
 	a.resize(n + 3);
@@ -84,8 +46,6 @@ int main(){
 			a[i + 3][i + 4] = 1;
 	}
 
-
-	//cout << optimal_solution() << "  " << naive_solution() << endl;  
 	printf("%d\n", n);
 	for(int i = 1; i <= n - 1; i++){
 		for(int j = i + 1; j <= n; j++)

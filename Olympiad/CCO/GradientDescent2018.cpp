@@ -1,3 +1,10 @@
+/*
+Idea:
+- Minimum score cell is the median of tokens in both dimensions (x is the median of tokens' xs and y is the median of tokens' ys) 
+- We can find median for each dimension using binary search
+- Another optimization required to score 100 points is to do binary searches for both dimensions at once (we query (x, y), (x + 1, y) and (x, y + 1) )
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

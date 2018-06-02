@@ -1,3 +1,8 @@
+/*
+Idea:
+- dp[i][j] is the best score if we have already used first i games of Geese and first j games of Hawks 
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
