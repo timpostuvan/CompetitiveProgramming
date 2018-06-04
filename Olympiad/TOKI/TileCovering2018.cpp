@@ -1,6 +1,6 @@
 /*
 Idea:
-- For a fixed starting point the placement of tiles is always the same
+- For a fixed starting point placement of tiles is always the same
 - Because of that we can use binary lifting on number of tiles added 
 - par[x][i] is the index of first tile that is not covered if we start at tile x and use 2 ^ i tiles
 */
