@@ -3,7 +3,7 @@ Idea:
 - We can use at most one white cell from every column and every row
 - The goal is to use as many cells as possible and for that we can use maximum bipartite matching
 - In bipartite graph we add an edge between row x and column y if there is a white cell with coordiantes (x, y) 
-- If there are not any black cells the answer is 2 * (n - 1) but for every white cell answer is decreased by 1 (note that answer can't be less than n - 1)
+- If there are not any black cells, the answer is 2 * (n - 1) but for every white cell answer is decreased by 1 (note that answer can't be less than n - 1)
 */
 
 #include "tour.h"
