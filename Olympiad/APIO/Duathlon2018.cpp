@@ -2,7 +2,7 @@
 Idea:
 - Path is not valid if the middle vertex is an articulation point and both other vertices are in the same subtree
 (that way at least one edge must me traversed more than once)
-- Answer is number of all possible paths minus those, that are not valid
+- Answer is number of all possible paths minus those which are not valid
 */
 
 #include <bits/stdc++.h>
