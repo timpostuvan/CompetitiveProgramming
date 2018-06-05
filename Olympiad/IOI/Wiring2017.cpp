@@ -4,7 +4,7 @@ Idea:
 - a socket can always be connected to the closest socket of other color
 - we can also make a cluster of sockets where we have the same number of sockets of each color
 (cost for a cluster can be easily computed using prefix sums)
-- using the two methods above we cover all possible transitions of dp
+- using two methods above we cover all possible transitions of dp
 */
 
 #include "wiring.h"
