@@ -2,7 +2,7 @@
 Idea:
 - http://apio-olympiad.org/2010/solutions.pdf
 - dp1[x] - the best path
-- dp15[x] - the best path + path which ends at node x (x is the node with the lowest depth)
+- dp15[x] - the best path + path which ends at node x (x is a node with the lowest depth)
 - dp2[x] - the two best paths
 */
 
