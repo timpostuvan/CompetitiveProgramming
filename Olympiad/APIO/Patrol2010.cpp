@@ -1,9 +1,9 @@
 /*
 Idea:
 - http://apio-olympiad.org/2010/solutions.pdf
-- dp1[x] - the best path
-- dp15[x] - the best path + path which ends at node x (x is a node with the lowest depth)
-- dp2[x] - the two best paths
+- dp1[x] - the best path in x's subtree
+- dp15[x] - the best path + path which ends at node x
+- dp2[x] - the two best paths in x's subtree
 */
 
 #include <bits/stdc++.h>
