@@ -1,7 +1,7 @@
 /*
 Idea:
 - http://hsin.hr/coci/archive/2006_2007/
-- similar to solution at the link above but implemented with binary search
+- similar to solution at the link above except it is implemented with binary search
 */
 
 #include <bits/stdc++.h>
