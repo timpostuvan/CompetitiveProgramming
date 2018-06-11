@@ -1,7 +1,7 @@
 /*
 Idea:
 - http://hsin.hr/coci/archive/2006_2007/
-- similar solution but implemented with binary search
+- similar to solution at the link above but implemented with binary search
 */
 
 #include <bits/stdc++.h>
@@ -20,7 +20,7 @@ typedef long long ll;
 typedef long double ld;
 typedef pair<int, int> pii;
 
-pii v[maxn], tren[maxn];
+pii tren[maxn];
 int arr[maxn], par[maxn], n;
 bool used[maxn];
 
