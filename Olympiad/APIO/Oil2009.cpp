@@ -2,7 +2,7 @@
 Idea:
 - Three squares can always be separated in non-intersectng territories
 - We can choose "middle" square (corners (i, j), (i + k - 1, j), (i, j + k - 1) (i + k - 1, j + k - 1))
-and than pick two adjacent edges to divide plane (for example division is (i, j) - (i, m) and  (i, j) - (n, j))
+and than pick two adjacent edges to divide plane (for example division is (i, j) - (i, m) and (i, j) - (n, j))
 - We choose the best square in both territories (this is simple since they do not intersect - 2D prefix sum/maximum)
 - We try all possible "middle" squares and all 4 rotations (pairs of edges)
 */
