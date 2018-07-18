@@ -37,7 +37,6 @@ struct seg{
 };
 
 seg *root[maxn];
-node NULL_RET;
 int arr[maxn];
 vector<pii> v;
 
@@ -110,7 +109,7 @@ void update(seg *x, int l, int d, int i){
 
 node query(seg *x, int l, int d, int i, int j){
 	if(l > d || l > j || d < i)
-		return NULL_RET;
+		return node();
 
 	if(i <= l && d <= j)
 		return x -> data;
