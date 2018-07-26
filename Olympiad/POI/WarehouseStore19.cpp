@@ -1,7 +1,8 @@
-// 3 submissions
-// 30 min code
-// 15 min think
-// 2 min read
+/*
+Idea:
+- It is always optimal to try cheapest order and if there are more, we choose the rightmost
+- We take order if we can (this can be simulated using binary search and binary indexed tree)
+*/
 
 #include <bits/stdc++.h>
 
