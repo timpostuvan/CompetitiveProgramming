@@ -3,7 +3,7 @@ Idea:
 - x_i is weight of i-th smallest squark
 - Smallest element is x_1 + x_2, second smallest element is x_1 + x_3
 - It is not clear which element is x_2 + x_3 (there are more possibilities), so we try every element among first n as x2 + x_3
-- If we know 3 elements all other are uniquely determined
+- If we know 3 elementsm, all other are uniquely determined
 */
 
 #include <bits/stdc++.h>
